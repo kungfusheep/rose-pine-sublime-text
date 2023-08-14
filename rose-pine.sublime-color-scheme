@@ -266,5 +266,10 @@
 			"scope": "markup.raw",
 			"foreground": "var(love)",
 		},
+
+		{ "scope": "variable.parameter", "foreground": "var(foam)" },
+		{ "scope": "source.go variable.other.readwrite.declaration", "foreground": "var(foam)"},
+		{ "scope": "meta.binding.name variable.other.readwrite", "foreground": "var(foam)"},
+		{ "scope": "meta.export meta.class variable.other.readwrite", "foreground": "var(foam)"},
 	]
 }
